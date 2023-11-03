@@ -773,6 +773,22 @@ footer .payment {
     footer .copyright {
         text-align: start;
     }
+
+    /* Single Product Page */
+
+    #product-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #product-details .single-product-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #product-details .single-product-details {
+        width: 100%;
+    }
 }
 
 /* Shop */
@@ -810,4 +826,104 @@ footer .payment {
 #pagination a i {
     font-size: 1rem;
     font-weight: 600;
+}
+
+/* Single Product Page */
+
+#product-details {
+    display: flex;
+    margin-top: 1.25rem;
+}
+
+#product-details .single-product-image {
+    width: 40%;
+    margin-right: 3.125rem;
+}
+
+.group-product-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-product-column {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#main-image,
+.small-image {
+    border-radius: 10px;
+    box-shadow: 1.25rem 1.25rem 2.125rem rgba(0, 0, 0, 0.03);
+    transition: 0.3s ease;
+}
+
+#main-image:hover,
+.small-image:hover {
+    box-shadow: 1.25rem 1.25rem 2.125rem rgba(0, 0, 0, 0.1)
+}
+
+#product-details .single-product-details {
+    width: 50%;
+    padding-top: 1.875rem;
+}
+
+#product-details .single-product-details h4 {
+    padding: 2.5rem 0 1.25rem 0;
+}
+
+#product-details .single-product-details h2 {
+    font-size: 1.625rem;
+}
+
+#product-details .single-product-details select {
+    color: #6842ef;
+    display: block;
+    padding: 0.3125rem 0.625rem;
+    margin-bottom: 0.625rem;
+    border: 0.0625rem solid #6842ef;
+    border-radius: 0.9375rem;
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+#product-details .single-product-details select:focus {
+    outline: none;
+}
+
+#product-details .single-product-details input {
+    color: #6842ef;
+    width: 3.75rem;
+    margin-right: 0.625rem;
+    border: 0.0625rem solid #6842ef;
+    border-radius: 0.9375rem;
+    padding-left: 0.625rem;
+    font-weight: 500;
+    font-size: 0.75rem;
+    height: 2.9375rem;
+}
+
+#product-details .single-product-details input:focus {
+    outline: none;
+}
+
+#product-details .single-product-details button {
+    background-color: #6842ef;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.9375rem;
+    padding: 0.8125rem 1.125rem;
+    letter-spacing: 0.0187rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.75rem;
+    height: 2.9375rem;
+    transition: 0.3s;
+}
+
+#product-details .single-product-details button:hover {
+    background-color: #29ccc7;
+}
+
+#product-details .single-product-details span {
+    line-height: 1.5625rem;
 }
