@@ -158,10 +158,10 @@ body {
     font-weight: 700;
     font-size: 0.9375rem;
     transition: 0.3s;
-}
 
-#hero button:hover {
-    background-color: #29ccc7;
+    &:hover {
+        background-color: #29ccc7;
+    }
 }
 
 /* Features */
@@ -181,10 +181,10 @@ body {
     border: 0.0625rem solid #cdd4f8;
     border-radius: 0.625rem;
     margin: 0.9375rem 0;
-}
 
-#feature .feature-box:hover {
-    box-shadow: 0.625rem 0.625rem 3.375rem rgba(70, 62, 221, 0.1);
+    &:hover {
+        box-shadow: 0.625rem 0.625rem 3.375rem rgba(70, 62, 221, 0.1);
+    }
 }
 
 #feature .feature-box img {
@@ -246,14 +246,14 @@ body {
     margin: 0.9375rem 0;
     transition: 0.3s ease;
     position: relative;
+
+    &:hover {
+        box-shadow: 1.25rem 1.25rem 2.125rem rgba(0, 0, 0, 0.1);
+    }
 }
 
 #products h2 {
     color: #6842ef;
-}
-
-#products .product:hover {
-    box-shadow: 1.25rem 1.25rem 2.125rem rgba(0, 0, 0, 0.1);
 }
 
 #products .product img {
@@ -296,11 +296,11 @@ body {
     bottom: 1.25rem;
     right: 0.625rem;
     transition: 0.3s ease;
-}
 
-#products .product .cart:hover {
-    background-color: #29ccc7;
-    color: #088178;
+    &:hover {
+        background-color: #29ccc7;
+        color: #088178;
+    }
 }
 
 /* Call to Action Banner */
@@ -342,10 +342,10 @@ body {
     font-weight: 700;
     font-size: 0.9375rem;
     transition: 0.3s;
-}
 
-#large-banner button:hover {
-    background-color: #29ccc7;
+    &:hover {
+        background-color: #29ccc7;
+    }
 }
 
 /* Medium Banners */
@@ -516,10 +516,10 @@ body {
     font-size: 0.875rem;
     white-space: nowrap;
     transition: 0.3s;
-}
 
-#newsletter button:hover {
-    background-color: #29ccc7;
+    &:hover {
+        background-color: #29ccc7;
+    }
 }
 
 /* Footer */
@@ -556,6 +556,10 @@ footer a {
     text-decoration: none;
     color: #222222;
     margin-bottom: 0.625rem;
+
+    &:hover {
+        color: #29ccc7;
+    }
 }
 
 footer .social-medias {
@@ -566,15 +570,14 @@ footer .social-medias i {
     color: #465b52;
     padding-right: 0.25rem;
     cursor: pointer;
+
+    &:hover {
+        color: #29ccc7;
+    }
 }
 
 footer .payment img {
     margin: 0.625rem 0 0.9375rem 0;
-}
-
-footer .social-medias i:hover,
-footer a:hover {
-    color: #29ccc7;
 }
 
 footer .copyright {
@@ -651,11 +654,10 @@ footer .payment {
     border-radius: 10px;
     box-shadow: 1.25rem 1.25rem 2.125rem rgba(0, 0, 0, 0.03);
     transition: 0.3s ease;
-}
 
-#main-image:hover,
-.small-image:hover {
-    box-shadow: 1.25rem 1.25rem 2.125rem rgba(0, 0, 0, 0.1)
+    &:hover {
+        box-shadow: 1.25rem 1.25rem 2.125rem rgba(0, 0, 0, 0.1)
+    }
 }
 
 #product-details .single-product-details {
@@ -714,10 +716,10 @@ footer .payment {
     font-size: 0.75rem;
     height: 2.9375rem;
     transition: 0.3s;
-}
 
-#product-details .single-product-details button:hover {
-    background-color: #29ccc7;
+    &:hover {
+        background-color: #29ccc7;
+    }
 }
 
 #product-details .single-product-details span {
