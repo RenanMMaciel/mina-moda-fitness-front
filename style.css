@@ -651,7 +651,7 @@ footer .payment {
 
 #main-image,
 .small-image {
-    border-radius: 10px;
+    border-radius: 0.625rem;
     box-shadow: 1.25rem 1.25rem 2.125rem rgba(0, 0, 0, 0.03);
     transition: 0.3s ease;
 
@@ -740,7 +740,7 @@ footer .payment {
 #about-head img {
     width: 50%;
     height: auto;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
 #about-head div {
@@ -749,6 +749,13 @@ footer .payment {
 
 #about-video {
     text-align: center;
+}
+
+#about-video h2 a {
+    background-image: linear-gradient(to bottom left, #f7bd51, #f34935, #f01479, #e31893, #cf1eb3, #7630e7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 #about-video .video {
@@ -959,7 +966,7 @@ footer .payment {
 
     #product-details .single-product-image {
         width: 100%;
-        margin-right: 0px;
+        margin-right: 0rem;
     }
 
     #product-details .single-product-details {
@@ -978,7 +985,7 @@ footer .payment {
     }
 
     #about-head div {
-        padding-left: 0px;
+        padding-left: 0rem;
     }
 
     #about-video .video {
