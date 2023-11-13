@@ -770,6 +770,130 @@ footer .payment {
     border-radius: 1.25rem;
 }
 
+/* Contact Page */
+
+#contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details {
+    width: 40%;
+}
+
+#contact-details .details span,
+#form-details form span {
+    font-size: 0.75rem;
+}
+
+#contact-details .details h2,
+#form-details form h2 {
+    font-size: 1.625rem;
+    line-height: 2.1875rem;
+    padding: 1.25rem 0;
+}
+
+#contact-details .details h3 {
+    font-size: 1rem;
+    padding-bottom: 0.9375rem;
+}
+
+#contact-details .details li {
+    list-style: none;
+    display: flex;
+    padding: 0.625rem 0;
+}
+
+#contact-details .details li i {
+    font-size: 0.875rem;
+    padding-right: 1.375rem;
+}
+
+#contact-details .details li p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+#contact-details .map {
+    width: 55%;
+    height: 25rem;
+}
+
+#contact-details .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.875rem;
+    padding: 5rem;
+    border: 0.0625rem solid #e1e1e1;
+}
+
+#form-details form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form input,
+#form-details form textarea {
+    width: 100%;
+    padding: 0.75rem 0.9375rem;
+    outline: none;
+    margin-bottom: 1.25rem;
+    border-radius: 0.9375rem;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form button {
+    background-color: #6842ef;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.9375rem;
+    padding: 0.8125rem 1.125rem;
+    letter-spacing: 0.0187rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.75rem;
+    height: 2.9375rem;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: #29ccc7;
+    }
+}
+
+#form-details .people div {
+    padding-bottom: 1.5625rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+#form-details .people div img {
+    width: 4.0625rem;
+    height: 4.0625rem;
+    object-fit: cover;
+    margin-right: 0.9375rem;
+}
+
+#form-details .people div p {
+    margin: 0;
+    font-size: 0.8125rem;
+    line-height: 1.5625rem;
+}
+
+#form-details .people div p span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+}
+
 /* Media Query */
 
 @media (max-width: 799px) {
@@ -879,6 +1003,15 @@ footer .payment {
 
     #newsletter .form {
         width: 70%;
+    }
+
+    /* Contact Page */
+    #form-details {
+        padding: 2.5rem;
+    }
+
+    #form-details form {
+        width: 45%;
     }
 }
 
@@ -990,5 +1123,31 @@ footer .payment {
 
     #about-video .video {
         width: 100%;
+    }
+
+    /* Contact Page */
+
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details {
+        width: 100%;
+        margin-bottom: 1.875rem;
+    }
+
+    #contact-details .map {
+        width: 100%;
+    }
+
+    #form-details {
+        margin: 0.625rem;
+        padding: 1.875rem 0.625rem;
+        flex-wrap: wrap;
+    }
+
+    #form-details form {
+        width: 100%;
+        margin-bottom: 1.875rem;
     }
 }
